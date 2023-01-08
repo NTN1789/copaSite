@@ -1,0 +1,48 @@
+ain {
+    background-color:green ;
+}
+
+.mexerNoH{
+    height: 80vh;
+    background-image: url("https://static.corinthians.com.br/uploads/1560193829afdec7005cc9f14302cd0474fd0f3c96.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .show{
+    font-size: 5rem;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    padding-left: 200px;
+    width: 50%;
+  }
+
+
+  div  {
+    display: flex;
+    justify-content:space-evenly ;
+    margin:2rem ;
+  }
+
+  figcaption{
+    display:flex ;
+    align-items:center ;
+    justify-content: space-between;
+    text-transform:uppercase ;
+    position: relative;
+    margin-top:250px ;
+    right:12vw;
+    font-size:1.5rem ;
+  }
+
+  .Bandeiras{
+    width:20% ;
+  }
+  .Bandeiras:hover{
+     
+     transform:translateX(2%) ;
+     transition: transform 0.5 ease-in ;
+  }

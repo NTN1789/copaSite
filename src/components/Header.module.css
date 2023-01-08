@@ -1,0 +1,46 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+
+}
+.tituloCopa{
+    font-family: "Roboto", sans-serif;
+    text-transform:uppercase ;
+    font-size:2rem ;
+ 
+}
+.conteiner{
+   
+    width:100vw ;
+}
+
+.list {
+    width:100vh ;
+    display:flex ;
+    justify-content:space-evenly ;
+    justify-self: flex-end;
+
+}
+
+.logo {
+    width:5vw ;
+    height:10vh ;
+}
+
+
+.item{
+    list-style:none ;
+    margin-right:5rem ;
+}
+
+
