@@ -1,9 +1,9 @@
-ain {
+main {
     background-color:green ;
 }
 
 .mexerNoH{
-    height: 80vh;
+    height: 75vh;
     background-image: url("https://static.corinthians.com.br/uploads/1560193829afdec7005cc9f14302cd0474fd0f3c96.jpg");
     background-repeat: no-repeat;
     background-size: 100%;

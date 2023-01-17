@@ -1,24 +1,24 @@
 
 import styles from "./Main.module.css"
-import bandeira1 from "./assets/imagens1/bandeira1.png"
-import bandeira2 from "./assets/imagens1/bandeira2.png"
-import bandeira3 from "./assets/imagens1/bandeira3.png"
-import bandeira4 from "./assets/imagens1/bandeira4.png"
-import bandeira5 from "./assets/imagens1/bandeira5.png"
-import bandeira6 from "./assets/imagens1/bandeira6.png"
-import bandeira8 from "./assets/imagens1/bandeira8.png"
-import bandeira9 from "./assets/imagens1/bandeira9.png"
-import bandeira10 from "./assets/imagens1/bandeira10.png"
-import bandeira11 from "./assets/imagens2/bandeira11.png"
-import bandeira12 from "./assets/imagens2/bandeira12.png"
-import bandeira13 from "./assets/imagens2/bandeira13.png"
+import bandeira1 from "../assets/imagens1/bandeira1.png"
+import bandeira2 from "../assets/imagens1/bandeira2.png"
+import bandeira3 from "../assets/imagens1/bandeira3.png"
+import bandeira4 from "../assets/imagens1/bandeira4.png"
+import bandeira5 from "../assets/imagens1/bandeira5.png"
+import bandeira6 from "../assets/imagens1/bandeira6.png"
+import bandeira8 from "../assets/imagens1/bandeira8.png"
+import bandeira9 from "../assets/imagens1/bandeira9.png"
+import bandeira10 from "../assets/imagens1/bandeira10.png"
+import bandeira11 from "../assets/imagens2/bandeira11.png"
+import bandeira12 from "../assets/imagens2/bandeira12.png"
+import bandeira13 from "../assets/imagens2/bandeira13.png"
 
 
 function Main (){
 
     return (
         <div>
-            <main>
+          <main>
             <section className={styles.mexerNoH}>
                 <h2 className={styles.show}> show de bola</h2>
 
@@ -47,7 +47,7 @@ function Main (){
             </div>
 
           </section>
-          </main>
+        </main>
         </ div>
     )
 }
